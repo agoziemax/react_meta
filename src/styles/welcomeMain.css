@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.landerBG {
+  background-image: url('../assets/landingPage-BgEdited.png'),
+    linear-gradient(99.57deg, rgba(0, 0, 0, 0.2) 47.19%, rgba(0, 0, 0, 0) 51.41%);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.white-logo {
+  position: relative;
+  width: 90px;
+  left: 2vw;
+  top: vh;
+  cursor: pointer;
+}
+
+.heroSection {
+  position: relative;
+  top: 5rem;
+  left: 2vw;
+  z-index: 1;
+}
+
+.heroSection span {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+span.brickRed {
+  color: #d92128;
+  line-height: 30px;
+}
+
+.longButton {
+  width: 26%;
+  min-width: 34%;
+  margin-top: 7vh;
+  background-color: #d92128 !important;
+ 
+}
+
+.longButton:hover {
+  background-color: #e53f45 !important;
+}

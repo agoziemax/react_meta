@@ -1,0 +1,24 @@
+
+
+.main {
+  height: 100vh;
+  border: 1px;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: linear-gradient(99.57deg, rgba(0, 0, 0, 0.2) 47.19%, rgba(0, 0, 0, 0) 51.41%); */
+  background: linear-gradient(89.47deg, #070404 39.97%, rgba(7, 4, 4, 0) 114.16%);
+  opacity: 0.4;
+  filter: blur(25px);
+  transform: rotate(10.92deg);
+}

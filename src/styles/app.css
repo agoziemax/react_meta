@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --lightRed: #ffe2e3;
+  --skyRed: #fff6f6;
+  --buttonRed: #d92128;
+  --uploaded: #3eda73;
+  --pending: #ff9518;
+  --black: #070404;
+  --ash: #8d8d8d;
+  --darkAsh: #5e5e5e;
+  --black: #070404;
+  --navigationTextColor: #5e5e5e;
+  --buttonColor: #d92128;
+  --formTitlesColor: #d92128;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+
+
+/* .styled {
+  background: url('./assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-size: 3rem;
+} */
